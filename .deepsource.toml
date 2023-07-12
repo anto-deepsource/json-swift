@@ -2,7 +2,3 @@ version = 1
 
 [[analyzers]]
 name = "swift"
-
-  [analyzers.meta]
-  swift_version = "4.1"
-  skip_doc_coverage = ["class"]
