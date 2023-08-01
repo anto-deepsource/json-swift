@@ -4,11 +4,12 @@
  * ------------------------------------------------------------------------------------------ */
 
 import XCTest
+
 @testable import JSONLibTests
 
 XCTMain([
-    testCase(JSValueEquatableTests.allTests),
-    testCase(JSValueIndexersTests.allTests),
-    testCase(JSValueLiteralsTests.allTests),
-    testCase(JSValueParsingTests.allTests),
+  testCase(JSValueEquatableTests.allTests),
+  testCase(JSValueIndexersTests.allTests),
+  testCase(JSValueLiteralsTests.allTests),
+  testCase(JSValueParsingTests.allTests),
 ])
