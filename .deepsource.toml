@@ -3,5 +3,5 @@ version = 1
 [[analyzers]]
 name = "swift"
 
-  [analyzers.meta]
-  skip_doc_coverage = []
+[[transformers]]
+name = "swift-format"
