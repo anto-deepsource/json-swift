@@ -11,7 +11,7 @@
 //    /// within the contents of a string value.
 //    public struct Encodings {
 //        private init() {}
-//        
+//
 //        /// The encoding prefix for all base64 encoded values.
 //        public static let base64 = "data:text/plain;base64,"
 //    }
@@ -29,11 +29,11 @@
 //            //                return [Byte](bytes)
 //            //            }
 //            fatalError("nyi")
-//            
+//
 //        default:
 //            return nil
 //            }
-//            
+//
 //            return nil
 //    }
 //}
